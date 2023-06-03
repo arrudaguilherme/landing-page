@@ -1,9 +1,12 @@
+*{
+    font-family: 'Roboto',sans-serif;
+}
+
 body {
     background-color: #FFFFFF;
     padding: 0;
     margin: 0;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -32,6 +35,14 @@ body {
     margin-left: auto;
     padding: 0px 100px 0px 0px;
     gap: 25px;
+    
+}
+
+.header-link a { 
+    text-decoration: none;
+    color: #E5E7Eb;
+    font-size: 18px;
+    
 }
 
 .box-1{
@@ -41,6 +52,9 @@ body {
     align-items: center;
     justify-content: center;
     padding: 90px;
+    margin-top: 1px;
+    
+
 }
 
 .description-main{
@@ -52,6 +66,113 @@ body {
 }
 
 .description-main button {
+    display: block;
     text-align: center;
-    background: blue;
+    background: #3882f6;
+    width:110px;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.main-content-icons h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.main-content-icons-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.main-content-icons-info div {
+    display: block;
+
+}
+
+.main-content-icons-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    margin: 5px 20px 0 20px;
+
+
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7Eb;
+
+
+}
+
+.quote-content p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-content b {
+    padding-bottom: 20px;
+    padding-right: 10;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.sign-up-content {
+    background-color: #3882f6;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.sign-up-itens-text {
+    margin-right: 200px;
+}
+
+.sign-up-itens-text h3 {
+    color: #FFF;
+    text-align: left;
+    padding: 0;
+    margin: 30px 0 0 50px;
+}
+
+.sign-up-itens-text p {
+    color: #FFF;
+    padding: 0;
+    margin: 5px 30px 30px 50px;
+    opacity: 0.7;
+}
+
+.sign-up-itens-button button {
+    flex: 1;
+    color: #FFF;
+    border-color: #FFF;
+    border-radius: 5px;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    font-size: 15px;
+
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #FFF;
 }
